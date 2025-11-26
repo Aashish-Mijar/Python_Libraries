@@ -1,0 +1,9 @@
+"""
+
+"""
+import numpy as np
+
+arr_2d = np.array([[1,3,4],[5,6,8]])
+
+new_arr_2d = np.delete(arr_2d, 0, axis=0)
+print(new_arr_2d)
