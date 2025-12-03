@@ -13,5 +13,6 @@ import numpy as np
 arr = np.array([10, 20,40,50,20])
 print(arr)
 new_arr = np.insert(arr, 2, 100, axis=0)
+new_arr = np.insert(arr, 2,)
 print(new_arr)
 
