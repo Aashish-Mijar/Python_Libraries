@@ -16,6 +16,7 @@ print(df)
 print("\nNames (Single column return series)")
 name = df["Name"]
 print(name)
+# print(name_n)
 
 # selecting multiple columns
 subset = df[["Name", "Age"]]
