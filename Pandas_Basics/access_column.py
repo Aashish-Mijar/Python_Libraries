@@ -22,3 +22,4 @@ print(name)
 subset = df[["Name", "Age"]]
 print("\nMultiple Columns")
 print(subset)
+# print(subset)
