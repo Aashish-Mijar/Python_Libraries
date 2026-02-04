@@ -12,3 +12,4 @@ print(df)
 
 print("\n")
 print(df.isnull().sum())
+
