@@ -17,3 +17,5 @@ print("\nHandle with value")
 df['Age'].fillna(df['Age'].mean(), inplace = True)
 df['Salary'].fillna(df['Salary'].mean(), inplace = True)
 print(df)
+
+
