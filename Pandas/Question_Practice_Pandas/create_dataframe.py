@@ -8,3 +8,11 @@ data_dict = {
 
 df = pd.DataFrame(data_dict)
 print(df)
+
+# Rename Columns dataframe
+df.rename(columns={
+    "Name":"Students_Name",
+    "Marks":"Total_Marks"
+}, inplace=True)
+
+print(df)
