@@ -11,6 +11,11 @@ print("Rows ",rows)
 print("Columns ", columns)
 
 # Displaying column names and data types
-
 print(df.columns)
 print(df.dtypes)
+
+#  Selecting row using index (label-based)
+print(df.loc[0])
+
+# Selecting rows using iloc (position-based)
+print(df.iloc[0:3])
