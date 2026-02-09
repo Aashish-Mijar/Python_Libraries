@@ -16,3 +16,9 @@ df.rename(columns={
 }, inplace=True)
 
 print(df)
+
+# Check missing values
+print(df.isnull())
+
+# Count missing values
+print(df.isnull().sum())
