@@ -19,3 +19,6 @@ print(df)
 # Remove row (index 1)
 df.drop(index=1, inplace = True)
 print(df)
+
+filtered_df = df[df["Marks"]>80]
+print(filtered_df)
