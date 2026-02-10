@@ -9,3 +9,6 @@ data = {
 
 df = pd.DataFrame(data)
 print(df)
+
+df["Result"]= df["Marks"].apply(lambda x: "Pass" if x >= 40 else "Fail")
+print(df)
