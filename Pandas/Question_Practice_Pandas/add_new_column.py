@@ -15,3 +15,7 @@ print(df)
 
 df.drop(columns=["Age"], inplace = True)
 print(df)
+
+# Remove row (index 1)
+df.drop(index=1, inplace = True)
+print(df)
