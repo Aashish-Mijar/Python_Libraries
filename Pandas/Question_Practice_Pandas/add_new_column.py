@@ -12,3 +12,6 @@ print(df)
 
 df["Result"]= df["Marks"].apply(lambda x: "Pass" if x >= 40 else "Fail")
 print(df)
+
+df.drop(columns=["Age"], inplace = True)
+print(df)
