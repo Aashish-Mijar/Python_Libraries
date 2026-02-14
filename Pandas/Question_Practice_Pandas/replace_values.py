@@ -23,3 +23,6 @@ print(df.sort_values(by=["Class", "Marks"], ascending=[True, False]))
 
 
 # print(df)
+
+# Mean marks by class
+print(df.groupby("Class")["Marks"].mean())
