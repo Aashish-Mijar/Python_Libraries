@@ -29,3 +29,6 @@ print(df.groupby("Class")["Marks"].mean())
 
 # Sum of marks by class
 print(df.groupby("Class")["Marks"].sum())
+
+# Count students by class
+print(df.groupby("Class")["Name"].count())
