@@ -8,7 +8,6 @@ data = {
 }
 
 df = pd.DataFrame(data)
-# print(df)
 
 # Replace missing values with mean and median
 
@@ -17,7 +16,10 @@ df = pd.DataFrame(data)
 # df["Marks"].fillna(df["Marks"].median(), inplace=True)
 
 # Sort by Marks (ascending)
-print(df.sort_values(by = "Marks"))
+# print(df.sort_values(by = "Marks"))
+
+# Sort by Class then Marks (descending)
+print(df.sort_values(by=["Class", "Marks"], ascending=[True, False]))
 
 
-print(df)
+# print(df)
