@@ -10,4 +10,5 @@ df2 = pd.DataFrame({
     "Marks": [97,89,99]
 })
 
-print(df2)
+merged_df = pd.merge(df1, df2, on= "Id")
+print(merged_df)
