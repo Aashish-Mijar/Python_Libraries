@@ -23,3 +23,7 @@ print(left)
 # Right Join
 right = pd.merge(df1, df2, on = "Id", how= "right")
 print(right)
+
+# Outer Join
+outer = pd.merge(df1, df2, on="Id", how="outer")
+print(outer)
