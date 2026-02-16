@@ -19,3 +19,7 @@ print(inner)
 # Left Join
 left = pd.merge(df1, df2, on="Id", how = "left")
 print(left)
+
+# Right Join
+right = pd.merge(df1, df2, on = "Id", how= "right")
+print(right)
