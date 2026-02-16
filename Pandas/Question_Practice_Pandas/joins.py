@@ -15,3 +15,7 @@ df2 = pd.DataFrame({
 
 inner = pd.merge(df1, df2, on="Id", how = "inner")
 print(inner)
+
+# Left Join
+left = pd.merge(df1, df2, on="Id", how = "left")
+print(left)
