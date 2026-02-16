@@ -10,3 +10,8 @@ df2 = pd.DataFrame({
     "Id": [3,4,5,6,],
     "Marks": [80, 99, 90, 97]
 })
+
+# Inner Join
+
+inner = pd.merge(df1, df2, on="Id", how = "inner")
+print(inner)
