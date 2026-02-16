@@ -7,3 +7,7 @@ data = {
 }
 
 df = pd.DataFrame(data)
+
+pivot = pd.pivot_table(df, values="Marks", index="Class", aggfunc="mean")
+
+print(pivot)
