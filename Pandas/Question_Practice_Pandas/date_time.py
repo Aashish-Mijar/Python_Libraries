@@ -1,0 +1,10 @@
+import pandas as pd
+
+df_dates = pd.DataFrame({
+    "Date": ["2026-01-01", "2026-02-15", "2026-03-10"]
+})
+
+df_dates["Date"] = pd.to_datetime(df_dates["Date"])
+
+# Extract year
+df_dates["Year"] = df_dates["Date"].dt.year
