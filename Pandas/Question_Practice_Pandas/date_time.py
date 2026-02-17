@@ -11,3 +11,6 @@ df_dates["Year"] = df_dates["Date"].dt.year
 
 # Extract month
 df_dates["Month"] = df_dates["Date"].dt.month
+
+# Extract day
+df_dates["Day"] = df_dates["Date"].dt.day
