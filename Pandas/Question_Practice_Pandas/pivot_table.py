@@ -21,4 +21,8 @@ print(df["Class"])
 
 # map() -> Seris only
 df["Marks_double"] = df["Marks"].map(lambda x: x*2)
-print(df["Marks_double"])
+# print(df["Marks_double"])
+
+# apply() -> Series or DataFrame
+df["Marks_Square"] = df["Marks"].apply(lambda x: x ** 2)
+print(df["Marks_Square"])
