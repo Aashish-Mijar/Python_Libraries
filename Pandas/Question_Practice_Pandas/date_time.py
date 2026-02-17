@@ -8,3 +8,6 @@ df_dates["Date"] = pd.to_datetime(df_dates["Date"])
 
 # Extract year
 df_dates["Year"] = df_dates["Date"].dt.year
+
+# Extract month
+df_dates["Month"] = df_dates["Date"].dt.month
