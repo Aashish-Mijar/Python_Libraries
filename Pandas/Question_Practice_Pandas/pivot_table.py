@@ -18,3 +18,7 @@ df["Grade"]= df["Marks"].map(lambda x: "Pass" if x>=40 else "Fail")
 
 df["Class"] = df["Class"].replace({"A":"First", "B":"Second"})
 print(df["Class"])
+
+# map() -> Seris only
+df["Marks_double"] = df["Marks"].map(lambda x: x*2)
+print(df["Marks_double"])
