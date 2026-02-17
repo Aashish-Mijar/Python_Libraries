@@ -15,3 +15,6 @@ pivot = pd.pivot_table(df, values="Marks", index="Class", aggfunc="mean")
 # map() for categorical conversion
 df["Grade"]= df["Marks"].map(lambda x: "Pass" if x>=40 else "Fail")
 # print(df["Grade"])
+
+df["Class"] = df["Class"].replace({"A":"First", "B":"Second"})
+print(df["Class"])
