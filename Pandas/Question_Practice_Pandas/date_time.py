@@ -14,3 +14,5 @@ df_dates["Month"] = df_dates["Date"].dt.month
 
 # Extract day
 df_dates["Day"] = df_dates["Date"].dt.day
+
+print(df_dates)
