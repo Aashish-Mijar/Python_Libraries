@@ -25,4 +25,8 @@ df["Marks_double"] = df["Marks"].map(lambda x: x*2)
 
 # apply() -> Series or DataFrame
 df["Marks_Square"] = df["Marks"].apply(lambda x: x ** 2)
-print(df["Marks_Square"])
+# print(df["Marks_Square"])
+
+# applymap() -> Entire Dataframe (element-wise)
+df_numeric = df[["Marks", "Marks_double"]]
+print(df_numeric.applymap(lambda x: x+1))
