@@ -14,3 +14,9 @@ print("Average sales:", sales["Sales"].mean())
 
 # Sales by product
 print(sales.groupby("Product")["Sales"].sum())
+
+# Highest sale
+print("Max sale: ", sales["Sales"].max())
+
+# Pivot summary
+print(pd.pivot_table(sales, values="Sales", index="Region", aggfunc="sum"))
