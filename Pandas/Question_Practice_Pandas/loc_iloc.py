@@ -7,3 +7,6 @@ df = pd.DataFrame({
 
 # loc -> label-based
 print(df.loc["a"])
+
+# iloc -> position-based
+print(df.iloc[0])
