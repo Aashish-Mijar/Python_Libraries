@@ -11,3 +11,6 @@ print("Total Sales:", sales["Sales"].sum())
 
 # Average Sales
 print("Average sales:", sales["Sales"].mean())
+
+# Sales by product
+print(sales.groupby("Product")["Sales"].sum())
