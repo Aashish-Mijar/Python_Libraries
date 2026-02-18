@@ -7,3 +7,7 @@ df_dup = pd.DataFrame({
 
 # Detect duplicates
 print(df_dup.duplicated())
+
+# Remove duplicates
+df_dup.drop_duplicates(inplace=True)
+print(df_dup)
