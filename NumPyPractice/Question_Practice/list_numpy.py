@@ -11,5 +11,6 @@ print("List Time: ", time.time() - start)
 #  Numpy array
 array_data = np.arange(1000000)
 start = time.time()
+start = time.time()
 array_result = array_data * 2
 print("Numpy Time: ", time.time() - start)
