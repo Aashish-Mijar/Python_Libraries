@@ -10,4 +10,6 @@ vertical = np.vstack((a, b))
 horizontal = np.hstack((a, b))
 
 print("Vertical:\n", vertical)
+
+print("Horizontal:\n", horizontal)
 print("Horizontal:\n", horizontal)
