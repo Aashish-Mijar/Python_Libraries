@@ -8,3 +8,4 @@ if value in arr:
     print("Value exists in array")
 else:
     print("Value not found")
+    print("Value not found")
